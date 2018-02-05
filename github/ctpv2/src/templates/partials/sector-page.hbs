@@ -1,0 +1,53 @@
+{{!-- {{> navbar }} --}}
+
+<div class="container" id="top">
+    {{> vision }}
+
+    <div class="row">
+        <div class="col-sm-3">
+            {{#if targets }}
+                {{> target-list }}
+            {{/if }}
+
+            {{#if definitions }}
+                {{> definitions }}
+            {{/if }}
+        </div>
+
+        <div class="col-sm-9">
+            {{#if otherCharts }}
+                {{> chart-scroll }}
+            {{/if }}
+
+            <div class="goal-charts" id="goal-charts">
+                <h5>Target indicators</h5>
+                {{#each targetCharts }}
+                    <div class="row">
+                        {{#each charts }}
+                            {{> chart }}
+                        {{/each }}
+                    </div>
+                {{/each }}
+            </div>
+
+            {{#if otherCharts }}
+                <div class="other-charts" id="other-charts">
+                    <h5>Other indicators</h5>
+                    {{#each otherCharts }}
+                        <div class="row">
+                            {{#each charts }}
+                                {{> chart }}
+                            {{/each }}
+                        </div>
+                    {{/each }}
+                </div>
+            {{/if }}
+
+            {{> jump-to-top }}
+        </div>
+    </div>
+</div>
+
+{{> abbreviations }}
+
+{{> data-download }}

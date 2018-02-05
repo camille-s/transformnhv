@@ -1,0 +1,66 @@
+{
+    "sector": "community",
+    "title": "Community Cohesion",
+    "shortTitle": "Community Cohesion",
+    "longName": "Community cohesion and safety",
+    "vision": "All neighborhoods will be safe, cohesive, free of violent crime, and capable of supporting their residents' success",
+    "ctpUrl": "community_cohesion_n_safety.htm",
+    "targets": [
+        {
+            "name": "Reduce crime",
+            "content": "Reduce violent crime rate to the statewide average of 3 crimes per 1,000 residents"
+        }, {
+            "name": "Reconnect residents",
+            "content": "Reduce recidivism rate for adults by 25%"
+        }, {
+            "name": "Build trust",
+            "content": "Increase percentage of adults who report trusting their neighbors by 50%"
+        }, {
+            "name": "Engage youth",
+            "content": "Engage 800 at-risk youth in YouthStat"
+        }
+    ],
+    "definitions": [
+        {
+            "word": "Recidivism",
+            "definition": "Recidivism rate refers to the share of people released from prison or jail each year who return to jail within a certain period of time."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "safety-trend",
+                    "n": "6",
+                    "chartTitle": "Adults who report feeling unsafe in neighborhood at night, 2012-2015",
+                    "class": "chart210",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "violent-crime-map",
+                    "n": "6",
+                    "chartTitle": "Annual violent crime rate per 1,000 residents, 2013-2015",
+                    "class": "mapContainer",
+                    "source": "DataHaven analysis of NHPD records",
+                    "hasSvg": false
+                }, {
+                    "id": "property-crime-map",
+                    "n": "6",
+                    "chartTitle": "Annual property crime rate per 1,000 residents, 2013-2015",
+                    "class": "mapContainer",
+                    "source": "DataHaven analysis of NHPD records",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+
+    ]
+}

@@ -1,0 +1,11 @@
+sectors: [
+    { name: 'literacy', title: 'Adult learning' },
+    { name: 'community', title: 'Community cohesion' },
+    { name: 'childhood', title: 'Early childhood' },
+    { name: 'economy', title: 'Economic development' },
+    { name: 'education', title: 'Education' },
+    { name: 'health', title: 'Health' },
+    { name: 'housing', title: 'Housing' },
+    { name: 'workforce', title: 'Workforce' },
+    { name: 'cross', title: 'Cross-sector' }
+    ]

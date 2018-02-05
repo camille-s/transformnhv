@@ -1,0 +1,73 @@
+{
+    "sector": "housing",
+    "title": "Housing",
+    "shortTitle": "Housing",
+    "longName": "Housing and physical environment",
+    "vision": "All residents have access to quality housing, infrastructure, and neighborhood spaces that promote community cohesion and are affordable",
+    "ctpUrl": "housing_n_environment_.htm",
+    "targets": [
+        {
+            "name": "Affordable housing",
+            "content": "Reduce percentage of cost-burdened residents down to 43% from 53%"
+        }, {
+            "name": "Development",
+            "content": "Build 800 units of affordable housing"
+        }, {
+            "name": "Homelessness",
+            "content": "Reduce the number of homeless residents by 50%"
+        }, {
+            "name": "Complete Streets",
+            "content": "Design and implement 20 Complete Streets"
+        }
+    ],
+    "definitions": [
+        {
+            "word": "Severe cost burden",
+            "definition": "Severe housing cost burden refers to households that spend at least 50% of their income on housing costs."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "burden-map",
+                    "n": "6",
+                    "chartTitle": "Severe housing cost burden by neighborhood, 2015",
+                    "class": "mapContainer",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "burden-tenure",
+                    "n": "6",
+                    "chartTitle": "Severe housing cost burden by tenure, 2015",
+                    "class": "chart240",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "age-bars",
+                    "n": "5",
+                    "chartTitle": "Homeownership rate by age of householder, 2015",
+                    "class": "chart240",
+                    "source": "DataHaven analysis, American Community Survey via IPUMS",
+                    "hasSvg": false
+                }, {
+                    "id": "tenure-age-race",
+                    "n": "7",
+                    "chartTitle": "Homeownership rate by age and race, 2015",
+                    "class": "chart240",
+                    "source": "DataHaven analysis, American Community Survey via IPUMS",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ]
+}

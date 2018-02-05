@@ -1,0 +1,44 @@
+{
+    "sector": "economy",
+    "title": "Economic Activity",
+    "shortTitle": "Economy",
+    "longName": "Economic activity",
+    "vision": "All residents benefit from sustained economic growth and a thriving local economy, and all neighborhoods have vibrant centers of commerce, jobs, and community cohesion",
+    "ctpUrl": "economic_activity.htm",
+    "targets": [
+        {
+            "name": "Regional competitiveness",
+            "content": "Regular commuter rail service to Hartford, and scheduled air service from major carriers to Washington, DC and Midwest airports"
+        }, {
+            "name": "Local jobs, firms, and businesses",
+            "content": "Retention and construction of sustainable food-based, tech, bioscience, health, and retail business incubators. Increase minority-owned small business participation across the ecosystem by 50%"
+        }, {
+            "name": "Quality companies",
+            "content": "Cedar Hill rail yard developed into industrial park and/or inland port by 2018. 100,000 sq. ft. of sub-dividable lab space created downtown by 2019"
+        }, {
+            "name": "Revitalized neighborhoods",
+            "content": "Downtown retail occupancy rate increased to 93%. Workforce and/or affordable-housing option incorporated in every mixed-use development project by 2019"
+        }
+    ],
+    "definitions": [
+
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "jobs-trend",
+                    "n": "12",
+                    "chartTitle": "Number of New Haven residents who are employed, 2002-2016",
+                    "class": "chart300",
+                    "source": "Bureau of Labor Statistics",
+                    "hasSvg": true
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+
+    ]
+}

@@ -1,0 +1,42 @@
+---
+title: Home
+isSector: false
+sector: index
+content: ./intro-text.md
+---
+
+{{> navbar-front-page }}
+
+<div class="container">
+    <div class="plank">
+        {{{md "./src/content/intro-text.md" }}}
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            {{> sector-buttons }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="grid" id="grid-container">
+                {{> spinner }}
+
+                <div class="grid-sizer col-xs-12 col-sm-6 col-md-4 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    {{> key }}
+</div>
+<div class="container">
+    <h4>Sources</h4>
+    <div id="source-list"></div>
+</div>
+<div class="container">
+    {{> footer-credits }}
+</div>

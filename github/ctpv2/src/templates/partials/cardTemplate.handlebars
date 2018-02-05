@@ -1,0 +1,37 @@
+<div class="row">
+    <!-- <h5 class="name col-xs-12">{{name}}</h5> -->
+    <h5 class="name"><span>{{name}}</span></h5>
+</div>
+
+<div class="row">
+    <div class="col-xs-9">
+        <div class="row row-no-gutter">
+            <h1 class="current-val">{{current_val}} <small class="current-year">{{current_year}}</small></h1>
+        </div>
+        <div class="row row-no-gutter">
+            <h3 class="prev-val">{{prev_val}} <small class="prev-year">{{prev_year}}</small></h3>
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <h1 class="trend">
+            <!-- <span class="glyphicon glyphicon-{{arrow}} {{outcome}}"></span> -->
+            <svg class="icon {{outcome}}" aria-hidden="true">
+                <use xlink:href="./assets/img/icons.svg#{{arrow}}"></use>
+            </svg>
+        </h1>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="descript"><p class="descript-text">{{description}}. <em>({{source}})</em></p></div>
+</div>
+<div class="row">
+    {{#if hasLink}}
+    <a class="area" href="pages/{{class}}.html">
+        View <span class="hidden learn-more"></span><span>{{area}}</span>
+    </a>
+    {{else}}
+        <span class="area">{{area}}</span>
+    {{/if}}
+</div>

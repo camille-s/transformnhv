@@ -1,0 +1,63 @@
+{
+    "sector": "education",
+    "title": "Education and Youth Development",
+    "shortTitle": "Education",
+    "longName": "Education and youth development",
+    "vision": "All youth will be at grade level in reading and math, complete an education that prepares them for success in college and career, and grow up supported by caring adults",
+    "ctpUrl": "education_n_youth_development.htm",
+    "targets": [
+        {
+            "name": "Graduation",
+            "content": "Increase the high school graduation rate from 76% to 85%"
+        }, {
+            "name": "Grade-level achievement",
+            "content": "Increase percentage of 3rd graders at grade level in reading and math to 50%"
+        }, {
+            "name": "Caring adults",
+            "content": "Increase the percentage of youth with a caring person other than their parent to 90%"
+        }
+    ],
+    "definitions": [
+        {
+            "word": "Graduation rate",
+            "definition": "Graduation rate is the share of students from a given class who graduate high school within four years. Figures shown are for public school districts."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "grad-trend-loc",
+                    "n": "6",
+                    "chartTitle": "High school graduation rate, all students, 2012-2016",
+                    "class": "chart240",
+                    "source": "CT State Dept. of Education",
+                    "hasSvg": true
+                }, {
+                    "id": "grad-trend-race",
+                    "n": "6",
+                    "chartTitle": "High school graduation rate by race, NHPS, 2012-2016",
+                    "class": "chart240",
+                    "source": "CT State Dept. of Education",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "grad-by-school",
+                    "n": "6",
+                    "chartTitle": "High school graduation rate by NHPS school, 2016",
+                    "class": "chart300",
+                    "source": "CT State Dept. of Education",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+
+    ]
+}

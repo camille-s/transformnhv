@@ -1,0 +1,40 @@
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span>
+                     City Transformation Plan
+                </span>
+            </a>
+            {{!-- <div class="navbar-brand hidden-xs">{{ this.shortTitle }}</div> --}}
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sectors <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {{#each sectors }}
+                            {{#isnt this.name ../sector }}
+                                <li><a href="{{ name }}.html">{{ title }}</a></li>
+                            {{/isnt }}
+                        {{/each }}
+                    </ul>
+
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../">Dashboard home</a></li>
+                {{#if isSector }}
+                    <li><a href="http://www.newhavenct.gov/gov/depts/city_transformation_plan_n_dashboard/about_ctp/{{ ctpUrl }}">{{ shortTitle }} in the CTP</a></li>
+                {{/if }}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+{
+    "sector": "literacy",
+    "title": "Adult Learning",
+    "shortTitle": "Adult Learning",
+    "longName": "Adult learning and life skills",
+    "vision": "All adults achieve high school literacy and have the life skills they need to succeed in careers and participate in their communities",
+    "ctpUrl": "adult_learning_n_life_skills.htm",
+    "targets": [
+        {
+            "name": "Literacy",
+            "content": "Increase literacy to high school level for 2,500 residents"
+        }, {
+            "name": "ESOL",
+            "content": "Expand English for Speakers of Other Languages programming by 500 students"
+        }, {
+            "name": "Life skills",
+            "content": "Increase financial literacy for 2,500 residents"
+        }
+    ],
+    "definitions": [
+        {
+            "word": "Basic literacy",
+            "definition": "Basic literacy indicates skills necessary to perform simple and everyday literacy activities."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "diploma-trend",
+                    "n": "6",
+                    "chartTitle": "Adults without high school diplomas, 2000-2015",
+                    "class": "chart210",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": true
+                }, {
+                    "id": "diploma-loc",
+                    "n": "6",
+                    "chartTitle": "Adults without high school diplomas by location, 2015",
+                    "class": "chart210",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "diploma-race",
+                    "n": "6",
+                    "chartTitle": "Adults without high school diplomas by race, 2015",
+                    "class": "chart240",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "diploma-map",
+                    "n": "6",
+                    "chartTitle": "Adults without high school diplomas by neighborhood, 2015",
+                    "class": "chart400 mapContainer",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+
+    ]
+}

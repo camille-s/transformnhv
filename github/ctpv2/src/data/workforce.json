@@ -1,0 +1,83 @@
+{
+    "sector": "workforce",
+    "title": "Jobs and Workforce",
+    "shortTitle": "Workforce",
+    "longName": "Job creation and workforce development",
+    "vision": "All residents have the job training, basic skills, and access to services that they need to succeed in living wage employment and achieve financial stability",
+    "ctpUrl": "job_creation_n_workforce.htm",
+    "targets": [
+        {
+            "name": "Underemployment",
+            "content": "Reduce the underemployment rate from 20% to 15% by moving 3,000 individuals into better jobs"
+        }, {
+            "name": "Living wage jobs",
+            "content": "Increase the percentage of residents in jobs making a living wage from 39% to 45%, placing 700 people per year"
+        }, {
+            "name": "Pipeline",
+            "content": "Establish a unified workforce pipeline that supports, tracks, and places 5,000 residents in jobs"
+        }
+    ],
+    "definitions": [
+        {
+            "word": "Underemployment",
+            "definition": "Underemployed people are either unemployed and want to work, or working part-time but want to work full-time."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "underemployment-chart",
+                    "n": "6",
+                    "chartTitle": "Underemployment rate by location, 2015",
+                    "class": "chart210",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "underemployment-trend",
+                    "n": "6",
+                    "chartTitle": "Underemployment rate, New Haven, 2012-2020",
+                    "class": "chart210",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "unemployment-trend",
+                    "n": "12",
+                    "chartTitle": "Unemployment rate, 2002-2016",
+                    "class": "chart210",
+                    "source": "Bureau of Labor Statistics",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "commute-map",
+                    "n": "6",
+                    "chartTitle": "Share of workers commuting by public transit, biking, or walking, 2015",
+                    "class": "mapContainer",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "income-map",
+                    "n": "6",
+                    "chartTitle": "Median household income, 2015",
+                    "class": "mapContainer",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ]
+
+}

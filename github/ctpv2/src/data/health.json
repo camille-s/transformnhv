@@ -1,0 +1,132 @@
+{
+    "sector": "health",
+    "title": "Health",
+    "shortTitle": "Health",
+    "longName": "Community health and mental health",
+    "vision": "All residents will breathe freely, have enough to eat, and be able to access quality wraparound care and support to be physically, mentally, and emotionally well",
+    "ctpUrl": "health_n_mental_health.htm",
+    "targets": [
+        {
+            "name": "Asthma",
+            "content": "Reduce number of ED visits and hospitalizations for asthma among children under age 5 by 50%"
+        }, {
+            "name": "Food",
+            "content": "Reduce the percentage of adults who report food insecurity from 22% to 15%"
+        }, {
+            "name": "Smoking",
+            "content": "Decrease percentage of adults who smoke from 18% in 2015 to 14% in 2020"
+        }, {
+            "name": "Mental health",
+            "content": "Reduce the number of ED visits and hospitalizations for mental health-related concerns by 28%"
+        }
+    ],
+    "definitions": [
+
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "asthma-map",
+                    "n": "6",
+                    "chartTitle": "Current adult asthma rate by census tract, 2014",
+                    "class": "chart400 mapContainer",
+                    "source": "BRFSS via 500 Cities Project",
+                    "hasSvg": false
+                }, {
+                    "id": "food-trend",
+                    "n": "6",
+                    "chartTitle": "Food insecurity, 2012-2020",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "smoking-loc",
+                    "n": "6",
+                    "chartTitle": "Smoking rates among adults by location, 2015",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "smoking-trend",
+                    "n": "6",
+                    "chartTitle": "Smoking rates among adults, 2012-2020",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "3",
+            "charts": [
+                {
+                    "id": "asthma-jpg",
+                    "n": "12",
+                    "chartTitle": "Childhood asthma hospitalization rate, 2012-2014",
+                    "source": "Greater New Haven Community Index 2016",
+                    "hasImg": true,
+                    "imgsrc": "child_asthma.jpg"
+                }
+            ]
+        }
+    ],
+    "otherCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "dental-map",
+                    "n": "6",
+                    "chartTitle": "Adults with recent dental visit by census tract, 2014",
+                    "class": "chart400 mapContainer",
+                    "source": "BRFSS via 500 Cities Project",
+                    "hasSvg": false
+                }, {
+                    "id": "insurance-trend",
+                    "n": "6",
+                    "chartTitle": "Adults lacking health insurance, 2012-2020",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "obesity-loc",
+                    "n": "6",
+                    "chartTitle": "Obesity rates among adults by location, 2015",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": false
+                }, {
+                    "id": "obesity-trend",
+                    "n": "6",
+                    "chartTitle": "Obesity rates among adults, 2012-2020",
+                    "class": "chart220",
+                    "source": "DataHaven Community Wellbeing Survey",
+                    "hasSvg": true
+                }
+            ]
+        }, {
+            "row": "3",
+            "charts": [
+                {
+                    "id": "heart-jpg",
+                    "n": "12",
+                    "chartTitle": "Heart disease hospitalization rate, 2012-2014",
+                    "source": "Greater New Haven Community Index 2016",
+                    "hasImg": true,
+                    "imgsrc": "heart_disease.jpg"
+                }
+            ]
+        }
+    ]
+}

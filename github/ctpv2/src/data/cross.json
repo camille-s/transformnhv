@@ -1,0 +1,63 @@
+{
+    "sector": "cross",
+    "title": "Cross-Sector Measures",
+    "shortTitle": "Cross-Sector",
+    "longName": "Cross-Sector Measures",
+    "vision": "These measures relate to all other sectors included in the dashboard. Cross-sector measures, such as financial wellbeing, give insight into the foundations of communities' lives.",
+    "ctpUrl": "",
+    "targets": [
+
+    ],
+    "definitions": [
+        {
+            "word": "Personal wellbeing index",
+            "definition": "The personal wellbeing index is calculated by DataHaven on a scale of 0 to 100, based on residents' self-reported happiness, health, anxiety, depression, life satisfaction, and time to enjoy their lives."
+        }
+    ],
+    "targetCharts": [
+        {
+            "row": "1",
+            "charts": [
+                {
+                    "id": "total-pop-trend",
+                    "n": "6",
+                    "chartTitle": "Total population, 1980-2015",
+                    "class": "chart300",
+                    "source": "US Census Bureau",
+                    "hasSvg": true
+                }, {
+                    "id": "per-wellbeing",
+                    "n": "6",
+                    "chartTitle": "Personal wellbeing index, 2015",
+                    "class": "chart300",
+                    "source": "2015 DataHaven Community Wellbeing Survey",
+                    "hasSvg": false
+                }
+            ]
+        }, {
+            "row": "2",
+            "charts": [
+                {
+                    "id": "fin-wellbeing",
+                    "n": "12",
+                    "chartTitle": "Financial wellbeing, 2015",
+                    "class": "mapContainer",
+                    "source": "2015 DataHaven Community Wellbeing Survey",
+                    "hasSvg": false
+                }
+            ]
+        }, {
+            "row": "3",
+            "charts": [
+                {
+                    "id": "poverty-age-race",
+                    "n": "7",
+                    "chartTitle": "Poverty rate by age and race, 2015",
+                    "class": "chart240",
+                    "source": "US Census Bureau, American Community Survey",
+                    "hasSvg": false
+                }
+            ]
+        }
+    ]
+}

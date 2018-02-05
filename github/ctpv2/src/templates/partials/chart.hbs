@@ -1,0 +1,20 @@
+<div class="col-md-{{ this.n }}">
+    <div class="chart-wrapper">
+        <div class="chart-title">
+            {{ this.chartTitle }}
+        </div>
+        <div class="chart-stage">
+            <div id="{{ this.id }}" class="{{ this.class }}">
+                {{#if this.hasSvg }}
+                    <svg></svg>
+                {{/if}}
+                {{#if this.hasImg }}
+                    <img src="../assets/img/{{ this.imgsrc }}" class="img-responsive center-block" />
+                {{/if}}
+            </div>
+        </div>
+        <div class="chart-notes">
+            Source: {{ this.source }}
+        </div>
+    </div>
+</div>

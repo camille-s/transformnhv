@@ -1,0 +1,6 @@
+<div class="btn-group filter-btns" id="filters" role="group" aria-label="filters">
+    <button type="button" class="btn btn-default active" data-filter="*">All sectors</button>
+    {{#each sectors }}
+        <button type="button" class="btn btn-default" data-filter=".{{ name }}">{{ title }}</button>
+    {{/each }}
+</div>

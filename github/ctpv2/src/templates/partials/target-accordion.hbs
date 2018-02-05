@@ -1,0 +1,30 @@
+<div class="chart-wrapper">
+    <div class="chart-title dark-title">
+        {{!-- <h4>2020 targets</h4> --}}
+    </div>
+    <div>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <ul class="targets">
+                {{#each targets}}
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="target{{@index}}">
+                            <h5 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}" aria-controls="collapse{{@index}}" aria-expanded="{{#if @index}}true{{else}}false{{/if}}">
+                                    {{ this.name }}
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapse{{@index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="target{{@index}}">
+                            {{!-- want a way to set class = "in",  {{#unless @index}}in{{/unless}} --}}
+                            <div class="panel-body">
+                                {{ this.content }}
+                            </div>
+                        </div>
+                    </div>
+
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>

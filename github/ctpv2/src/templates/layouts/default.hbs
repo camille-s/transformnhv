@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69796260-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-69796260-1');
+		</script>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{title}} - {{site.title}}</title>
+
+        <link rel="stylesheet" href="{{assets}}/vendor.css" />
+        <link rel="stylesheet" href="{{assets}}/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="{{assets}}/main.css" />
+
+        <link rel="icon" type="image/png" href="{{assets}}/img/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="{{assets}}/img/favicon-16x16.png" sizes="16x16" />
+    </head>
+
+    <body class="application">
+
+        {{> body }}
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{assets}}/vendor.js"></script>
+        {{!-- <script src="{{assets}}/js/jquery.min.js"></script> --}}
+        <script src="{{assets}}/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-statistics/1.0.1/simple_statistics.min.js"></script>
+
+        <script src="/main.js"></script>
+        <script>
+            // var $ = require('jquery');
+            var nav_gap = 64;
+            $('.jump-link').on('click', function() {
+                var target = $(this).attr('href');
+                var offset = $(target).offset().top - nav_gap;
+
+                $('html, body').animate({
+                    scrollTop: offset
+                }, 'slow');
+                return false;
+            });
+        </script>
+		{{!-- <script src="{{assets}}/scripts/addons.js"></script> --}}
+        {{!-- <script src="{{assets}}/scripts/{{sector}}.js"></script> --}}
+
+    </body>
+</html>
