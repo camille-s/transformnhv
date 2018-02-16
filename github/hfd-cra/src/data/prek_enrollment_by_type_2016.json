@@ -1,0 +1,33 @@
+[{
+    "name": "CT",
+    "type": "Private",
+    "value": 0.298
+}, {
+    "name": "CT",
+    "type": "Public",
+    "value": 0.353
+}, {
+    "name": "Region",
+    "type": "Private",
+    "value": 0.257
+}, {
+    "name": "Region",
+    "type": "Public",
+    "value": 0.401
+}, {
+    "name": "Hartford",
+    "type": "Private",
+    "value": 0.098
+}, {
+    "name": "Hartford",
+    "type": "Public",
+    "value": 0.535
+}, {
+    "name": "North End",
+    "type": "Private",
+    "value": 0.148
+}, {
+    "name": "North End",
+    "type": "Public",
+    "value": 0.594
+}]
